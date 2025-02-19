@@ -1,8 +1,6 @@
 import React, { useEffect, useReducer, useContext, useState } from "react";
 import todoReducer from "../reducers/todoReducer";
 import axios from "axios";
-import { AiOutlineCheck, AiOutlineClose } from "react-icons/ai";
-import { FaRegPenToSquare } from "react-icons/fa6";
 
 export const TodoContext = React.createContext()
 
